@@ -1,0 +1,1 @@
+INSERT INTO [dbo].[Event] SELECT * FROM [dbo].[EventTemp];
