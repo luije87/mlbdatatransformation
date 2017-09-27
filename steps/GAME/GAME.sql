@@ -1,6 +1,3 @@
-USE [mlb]
-GO
-
 /****** Object:  Table [dbo].[Game]    Script Date: 2017/09/27 3:34:06 PM ******/
 SET ANSI_NULLS ON
 GO

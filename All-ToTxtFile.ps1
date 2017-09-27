@@ -85,7 +85,7 @@ function Run {
 	EventsExt-ToTxtFile -Path $scriptDirectory -Year $Year			
 }
 
-for ($i = 1921; $i -lt 2016; $i++)
+for ($i = 2000; $i -lt 2016; $i++)
 { 
 	Run -Year $i
 }
