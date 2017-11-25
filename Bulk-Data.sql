@@ -20,6 +20,27 @@ BULK INSERT [dbo].[Game] FROM 'C:\Users\Luije87\Desktop\Baseball\2014\GAMES.txt'
 BULK INSERT [dbo].[Game] FROM 'C:\Users\Luije87\Desktop\Baseball\2015\GAMES.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
 BULK INSERT [dbo].[Game] FROM 'C:\Users\Luije87\Desktop\Baseball\2016\GAMES.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
 
+DELETE FROM [dbo].[GameExt]
+
+
+BULK INSERT [dbo].[GameExt] FROM 'C:\Users\Luije87\Desktop\Baseball\2000\GAMES-EXT.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
+BULK INSERT [dbo].[GameExt] FROM 'C:\Users\Luije87\Desktop\Baseball\2001\GAMES-EXT.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
+BULK INSERT [dbo].[GameExt] FROM 'C:\Users\Luije87\Desktop\Baseball\2002\GAMES-EXT.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
+BULK INSERT [dbo].[GameExt] FROM 'C:\Users\Luije87\Desktop\Baseball\2003\GAMES-EXT.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
+BULK INSERT [dbo].[GameExt] FROM 'C:\Users\Luije87\Desktop\Baseball\2004\GAMES-EXT.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
+BULK INSERT [dbo].[GameExt] FROM 'C:\Users\Luije87\Desktop\Baseball\2005\GAMES-EXT.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
+BULK INSERT [dbo].[GameExt] FROM 'C:\Users\Luije87\Desktop\Baseball\2006\GAMES-EXT.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
+BULK INSERT [dbo].[GameExt] FROM 'C:\Users\Luije87\Desktop\Baseball\2007\GAMES-EXT.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
+BULK INSERT [dbo].[GameExt] FROM 'C:\Users\Luije87\Desktop\Baseball\2008\GAMES-EXT.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
+BULK INSERT [dbo].[GameExt] FROM 'C:\Users\Luije87\Desktop\Baseball\2009\GAMES-EXT.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
+BULK INSERT [dbo].[GameExt] FROM 'C:\Users\Luije87\Desktop\Baseball\2010\GAMES-EXT.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
+BULK INSERT [dbo].[GameExt] FROM 'C:\Users\Luije87\Desktop\Baseball\2011\GAMES-EXT.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
+BULK INSERT [dbo].[GameExt] FROM 'C:\Users\Luije87\Desktop\Baseball\2012\GAMES-EXT.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
+BULK INSERT [dbo].[GameExt] FROM 'C:\Users\Luije87\Desktop\Baseball\2013\GAMES-EXT.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
+BULK INSERT [dbo].[GameExt] FROM 'C:\Users\Luije87\Desktop\Baseball\2014\GAMES-EXT.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
+BULK INSERT [dbo].[GameExt] FROM 'C:\Users\Luije87\Desktop\Baseball\2015\GAMES-EXT.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
+BULK INSERT [dbo].[GameExt] FROM 'C:\Users\Luije87\Desktop\Baseball\2016\GAMES-EXT.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
+
 DELETE FROM [dbo].[Event]
 
 BULK INSERT [dbo].[Event] FROM 'C:\Users\Luije87\Desktop\Baseball\2000\EVENTS.txt' WITH (FIELDTERMINATOR = ',',ROWTERMINATOR = '\n')
